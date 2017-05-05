@@ -12,7 +12,7 @@
 # the generated docker image, and copy them into the generated image.
 
 pushd ..
-sed -i 's/, nginx//' *spec
+sed -i 's/, nginx*//' *spec
 make rpm
 make clean
 popd
